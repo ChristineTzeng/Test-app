@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.machinetribe.christinetzeng.edpsych">
+
+    <!--<uses-permission android:name="android.permission.GET_ACCOUNTS" />-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TutorialActivity" />
+        <activity android:name=".TestActivity"></activity>
+        <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyB2To_ktBA6tb608h8xPZ3Qj46Z_lnjZEg" />
+
+        <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+        <!--client id :947533069953-oa2pr8msoukpj5ptes45eisoqrbu1n6g.apps.googleusercontent.com-->
+        <!--api key: AIzaSyB2To_ktBA6tb608h8xPZ3Qj46Z_lnjZEg-->
+    </application>
+
+</manifest>

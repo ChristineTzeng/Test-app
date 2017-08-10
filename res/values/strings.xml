@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EdPsych</string>
+    <string name="gz">Congratulations!</string>
+    <string name="testTitle">Participant Information Required</string>
+    <string name="test_required_info">Please enter ID number</string>
+    <string name="tutorial_correct_msg">That is correct.</string>
+    <string name="tutorial_wrong_msg">That is not correct.</string>
+    <string name="tutorial_done_msg">You have completed all practice problems. Now you can move on to the tests.</string>
+    <string name="test_done_msg">You have completed all questions. Thanks you for participating our tests.</string>
+    <string name="ok">OK</string>
+</resources>
